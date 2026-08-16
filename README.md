@@ -102,7 +102,7 @@ The Bethel Fashion website is being developed in three main phases, following th
 | Part 1 – Testing | Test website navigation and HTML functionality | Completed |
 | Part 1 – Testing | Debug and correct HTML errors | Completed |
 | Part 1 – GitHub | Organise project files and images in the GitHub repository | Completed |
-| Part 1 – Documentation | Create and update the README.md file | In Progress |
+| Part 1 - Documentation | Create and update the README.md file | Completed |
 | Part 2 – Design | Apply CSS styling and visual design | Planned |
 | Part 2 – Design | Implement responsive design and improve user experience | Planned |
 | Part 3 – Functionality | Implement JavaScript functionality | Planned |
@@ -211,6 +211,13 @@ CSS and JavaScript have not yet been implemented at this stage of the Portfolio 
 - Added the Part 1 details section.
 - Added the sitemap documentation.
 - Continued documenting the project development process.
+
+### Version 1.3 – Final README and References
+- Completed the README.md documentation.
+- Added the final reference list.
+- Updated the project timeline and Part 1 details.
+- Finalised the sitemap and project documentation.
+- Pushed the completed README.md to the GitHub repository.
 
 ## References
 
