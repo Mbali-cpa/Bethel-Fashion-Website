@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
 
     // Select all collection images
@@ -6,11 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ".collection-image, .hero__image, .card__image"
 );
 
-    // Stop if the page has no collection images
-    if (collectionImages.length === 0) {
-        return;
-    }
-
+   
     // Create the lightbox dialog
     const lightbox = document.createElement("dialog");
     lightbox.className = "image-lightbox";
@@ -156,11 +151,11 @@ if (enquiryForm) {
 
     const enquiryFeedback = document.getElementById("enquiryFeedback");
 
-    enquiryForm.addEventListener("submit", function(event) {
 
+      enquiryForm.addEventListener("submit", async function(event) {
         event.preventDefault();
 
-        const fullname = document.getElementById("fullname").value.trim();
+const fullname = document.getElementById("fullname").value.trim();
         const email = document.getElementById("email").value.trim();
         const phone = document.getElementById("phone").value.trim();
         const enquiryType = document.getElementById("enquiry-type").value;
@@ -238,11 +233,32 @@ if (!emailPattern.test(email)) {
                 response = "Thank you for contacting Bethel Fashion.";
         }
 
-        // Display successful submission message
+    // Submit the enquiry to Netlify
+try {
+    const formData = new FormData(enquiryForm);
+
+    const netlifyResponse = await fetch("/", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        body: new URLSearchParams(formData).toString()
+    });
+
+    if (netlifyResponse.ok) {
         enquiryFeedback.textContent =
             "Thank you, " + fullname + "! " + response;
 
         enquiryForm.reset();
+    } else {
+        enquiryFeedback.textContent =
+            "Sorry, your enquiry could not be submitted. Please try again.";
+    }
+
+} catch (error) {
+    enquiryFeedback.textContent =
+        "There was a connection problem. Please try again.";
+}
 
     });
 

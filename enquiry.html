@@ -43,7 +43,8 @@
 
     <section class="section">
       <div class="form-wrap">
-        <form id="enquiryForm">
+        <form name="enquiry" method="POST" data-netlify="true" id="enquiryForm">
+          <input type="hidden" name="form-name" value="enquiry">
 
           <div class="form-group">
             <label for="fullname">Full Name *</label>
