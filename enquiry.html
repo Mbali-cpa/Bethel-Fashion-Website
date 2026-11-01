@@ -1,130 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Bethel Fashion | Enquiry</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bethel Fashion | Enquiry</title>
+  <meta name="description" content="Send an enquiry to Bethel Fashion about women's clothing, shoes, and fashion accessories. Ask about prices, availability, and orders.">
+  <meta name="keywords" content="Bethel Fashion enquiry, product enquiry Johannesburg, fashion enquiry form, contact fashion retailer">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <!--HEADER AND NAVIGATION  -->
-    <header>
-        <h1>BETHEL FASHION</h1>
 
-        <!-- Main navigation menu -->
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="collections.html">Collections</a></li>
-                <li><a href="enquiry.html">Enquiry</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="index.html" class="logo">Bethel Fashion</a>
 
-        <!-- Shopping bag link -->
-        <a href="enquiry.html">Shopping Bag</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="collections.html">Collections</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
 
-    </header>
+      <a href="enquiry.html" class="shopping-bag">Shopping Bag</a>
+    </div>
+  </header>
 
-        <!-- ENQUIRY CONTENT  -->
-    <main>
+  <main>
 
-       <h2>PRODUCT ENQUIRIES</h2>
- 
-       <!-- Introduction explaining the purpose of the enquiry page -->
-       <p>
-           Enquire about Bethel Fashion's women's clothing, shoes and fashion
-           accessories using the enquiry form below.
-       </p>
+    <section class="section section--cream">
+      <div class="container text-center">
+        <span class="section-label">Get in Touch</span>
+        <h1>Product Enquiries</h1>
+        <p class="section-intro">
+          Enquire about Bethel Fashion's women's clothing, shoes, and fashion
+          accessories using the enquiry form below.
+        </p>
+      </div>
+    </section>
 
-       <p>
-           You can request information about products, prices, availability and orders.
-       </p>
+    <section class="section">
+      <div class="form-wrap">
+        <form id="enquiryForm">
 
-        <!-- ENQUIRY FORM -->
-        <form>
+          <div class="form-group">
+            <label for="fullname">Full Name *</label>
+            <input type="text" id="fullname" name="fullname" required>
+          </div>
 
-            <!-- Customer full name -->
-            <label for="fullname">Full Name *</label><br>
-            <input type="text" id="fullname" name="fullname"><br><br>
- 
-            <!-- Customer email address -->
-            <label for="email">Email Address *</label><br>
-            <input type="email" id="email" name="email"><br><br>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
 
-            <!-- Customer contact number -->
-            <label for="phone">Contact Number *</label><br>
-            <input type="tel" id="phone" name="phone"><br><br>
+          <div class="form-group">
+            <label for="phone">Contact Number *</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
 
-         <!-- Enquiry type selection -->
-            <label for="enquiry-type">Enquiry Type *</label><br>
+          <div class="form-group">
+            <label for="enquiry-type">Enquiry Type *</label>
+            <select id="enquiry-type" name="enquiry-type" required>
+              <option value="">Select an option</option>
+              <option value="product-information">Product Information</option>
+              <option value="product-price">Product Price</option>
+              <option value="product-availability">Product Availability</option>
+              <option value="orders">Orders</option>
+              <option value="womens-clothing">Women's Clothing</option>
+              <option value="footwear">Footwear</option>
+              <option value="fashion-accessories">Fashion Accessories</option>
+            </select>
+          </div>
 
-            <select id="enquiry-type" name="enquiry-type">
+          <div class="form-group">
+            <label for="message">Describe Your Enquiry *</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
 
-                <option value="">Select an option</option>
-                <option value="product-information">Product Information</option>
-                <option value="product-price">Product Price</option>
-                <option value="product-availability">Product Availability</option>
-                <option value="orders">Orders</option>
-                <option value="womens-clothing">Women's Clothing</option>
-                <option value="footwear">Footwear</option>
-                <option value="fashion-accessories">Fashion Accessories</option>
-            </select><br><br>
+          
+<button type="submit" class="btn form-submit">
+    Send Enquiry
+</button>
 
-            <!-- Customer enquiry message -->
-            <label for="message">Describe Your Enquiry *</label><br>
-            <textarea id="message" name="message" rows="6" cols="40"></textarea><br><br>
+<p id="enquiryFeedback" aria-live="polite"></p>
 
-            <!-- Submit enquiry form -->
-            <button type="submit">SEND ENQUIRY</button>
 
         </form>
-    </main>
+      </div>
+    </section>
 
-    <!-- FOOTER -->
-    <footer>
+  </main>
 
-        <h3>BETHEL FASHION</h3>
+  <footer class="site-footer">
+    <div class="footer-grid">
 
+      <div class="footer-brand">
+        <h2>Bethel Fashion</h2>
         <p>Fashion that makes a statement.</p>
+      </div>
 
-        <!-- Quick navigation links -->
-        <h4>QUICK LINKS</h4>
-
+      <div class="footer-col">
+        <h3>Quick Links</h3>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="collections.html">Collections</a></li>
-            <li><a href="enquiry.html">Enquiry</a></li>
-            <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="collections.html">Collections</a></li>
+          <li><a href="enquiry.html">Enquiry</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
+      </div>
 
-        <!-- Customer care information -->
-        <h4>CUSTOMER CARE</h4>
-
+      <div class="footer-col">
+        <h3>Customer Care</h3>
         <ul>
-            <li>Size Guide</li>
-            <li>Shipping & Returns</li>
-            <li>FAQs</li>
-            <li>Privacy Policy</li>
-            <li>Terms & Conditions</li>
+          <li><a href="#">Size Guide</a></li>
+          <li><a href="#">Shipping and Returns</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms and Conditions</a></li>
         </ul>
+      </div>
 
-        <!-- Social media platforms -->
-        <h4>FOLLOW US</h4>
-
-        <p>Facebook | WhatsApp | Instagram</p>
-
-        <!-- Business location and contact numbers -->
-        <p>Johannesburg, South Africa</p>
-
+      <div class="footer-col">
+        <h3>Follow Us</h3>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">WhatsApp</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+        <p style="margin-top:1rem;">Johannesburg, South Africa</p>
         <p>079 794 5275</p>
         <p>011 339 5239</p>
+      </div>
 
-        <!-- Copyright information -->
-        <p>&copy; 2026 Bethel Fashion. All Rights Reserved.</p>
+    </div>
 
-    </footer>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Bethel Fashion. All Rights Reserved.</p>
+    </div>
+  </footer>
 
+  <script src="js/script.js"></script>
 </body>
 </html>
