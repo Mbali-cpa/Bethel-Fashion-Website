@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://friendly-flan-014e73.netlify.app/sitemap.xml
