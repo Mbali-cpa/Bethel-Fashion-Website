@@ -145,7 +145,7 @@ Tested the HTML pages and navigation to identify and correct errors.
 
 Organised the website files and images into a clear folder structure.
 
-Created and maintained the private GitHub repository for the project.
+Created and maintained the GitHub repository for the project.
 
 Part 2 Details
 Part 2 focused on CSS styling and responsive design. The following activities were completed:
@@ -277,7 +277,7 @@ Built the initial HTML structure for the Home, About, Collections, Enquiry and C
 
 Added navigation links between all pages.
 
-Initialised the private GitHub repository and pushed the first commit.
+Initialised the GitHub repository and pushed the first commit.
 
 ## Part 3: JavaScript Functionality, Forms, SEO and Deployment
 
@@ -318,6 +318,7 @@ Initialised the private GitHub repository and pushed the first commit.
 - Verified that form submissions appeared in the Netlify dashboard.
 - Tested the interactive Google Maps.
 - Checked the deployed website.
+Live Website: https://friendly-flan-014e73.netlify.app/
 
 References
 Bethel Fashion (2026) Bethel Fashion business information. Available at: https://www.africabizinfo.com/ZA/bethel-fashion-079-794-5275 (Accessed: 12 August 2026).
