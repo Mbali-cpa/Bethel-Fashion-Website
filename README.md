@@ -256,6 +256,46 @@ Added navigation links between all pages.
 
 Initialised the private GitHub repository and pushed the first commit.
 
+## Part 3: JavaScript Functionality, Forms, SEO and Deployment
+
+### JavaScript Functionality
+- Created an external JavaScript file (js/script.js) for website interactivity.
+- Implemented an image lightbox on the Collections page, allowing users to enlarge images and view them against an overlay.
+- Added a collection search feature that allows users to search for clothing, shoes and accessories.
+- Added interactive feedback to the search functionality.
+
+### Forms and Form Processing
+- Implemented client-side validation on the Enquiry form.
+- Added validation for required fields, email addresses, South African phone numbers and message length.
+- Integrated the Enquiry form with Netlify Forms to collect submissions.
+- Integrated the Contact form with Netlify Forms.
+- Tested both forms and confirmed that submissions were received in the Netlify dashboard.
+
+### Interactive Maps
+- Embedded two interactive Google Maps on the Contact page.
+- Added map locations for the Johannesburg stores.
+
+### Search Engine Optimisation (SEO)
+- Improved page titles and meta descriptions.
+- Added robots.txt to provide crawling instructions for search engines.
+- Created sitemap.xml to help search engines discover the website pages.
+- Reviewed website headings, image descriptions and internal navigation links.
+
+### Deployment
+- Connected the Bethel Fashion GitHub repository to Netlify.
+- Deployed the website using Netlify.
+- Enabled automatic deployment when changes are pushed to the main GitHub branch.
+- Tested the live website and its forms after deployment.
+
+### Part 3 Testing
+- Tested collection search functionality.
+- Tested image lightbox functionality.
+- Tested required form fields and validation messages.
+- Submitted test entries through both forms.
+- Verified that form submissions appeared in the Netlify dashboard.
+- Tested the interactive Google Maps.
+- Checked the deployed website.
+
 References
 Bethel Fashion (2026) Bethel Fashion business information. Available at: https://www.africabizinfo.com/ZA/bethel-fashion-079-794-5275 (Accessed: 12 August 2026).
 
