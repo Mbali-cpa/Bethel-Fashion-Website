@@ -239,6 +239,29 @@ Adjusted layout, typography and navigation for tablet and mobile screens.
 
 Tested the website at 1920px, 768px and 375px widths and captured screenshot evidence.
 
+Part 3: JavaScript Functionality, Forms, SEO and Deployment (Version 3.0)
+Date: 2 November 2026
+
+Added JavaScript functionality for interactive website features.
+
+Implemented collection search functionality for clothing, shoes and accessories.
+
+Implemented an image lightbox for the Collections page.
+
+Added client-side validation to the Enquiry form.
+
+Integrated the Enquiry and Contact forms with Netlify Forms.
+
+Tested form submissions and verified that entries were received in the Netlify dashboard.
+
+Embedded interactive Google Maps for the two store locations.
+
+Added robots.txt and sitemap.xml files for SEO.
+
+Improved page titles and meta descriptions.
+
+Connected the GitHub repository to Netlify for automatic deployment.
+
 Part 1: Foundation (Version 1.0)
 Date: 12 August 2026
 
