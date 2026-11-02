@@ -262,6 +262,10 @@ Improved page titles and meta descriptions.
 
 Connected the GitHub repository to Netlify for automatic deployment.
 
+Configured Netlify email notifications for new Contact and Enquiry form submissions.
+
+Tested the Contact form and confirmed that email notifications were successfully delivered to the website administrator.
+
 Part 1: Foundation (Version 1.0)
 Date: 12 August 2026
 
