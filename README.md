@@ -293,6 +293,8 @@ Initialised the GitHub repository and pushed the first commit.
 - Integrated the Enquiry form with Netlify Forms to collect submissions.
 - Integrated the Contact form with Netlify Forms.
 - Tested both forms and confirmed that submissions were received in the Netlify dashboard.
+- Configured Netlify email notifications to automatically alert the website administrator when a Contact or Enquiry form is submitted.
+- Tested the Contact form on the live website and confirmed that the submission was received in the Netlify dashboard and an email notification was successfully delivered.
 
 ### Interactive Maps
 - Embedded two interactive Google Maps on the Contact page.
